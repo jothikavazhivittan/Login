@@ -1,0 +1,43 @@
+import { StyleSheet } from "react-native";
+const style=StyleSheet.create({
+image:{
+    width:100,
+    height:100
+},
+imageContainer:{
+       justifyContent:"center",
+       flex:1,
+       flexDirection:"row",
+       alignItems:"center",
+       padding:50,
+       margin:20
+},
+textName:{
+fontFamily:"serif",
+fontSize:16,
+fontWeight:"700",
+textAlign:"center",
+color:"black"
+},
+updateContainer:{
+    justifyContent:"center",
+    alignItems:"center",
+    backgroundColor:"#00b4d8",
+    padding:10,
+    margin:10,
+    borderRadius:50
+},
+updateText:{
+    fontFamily:"serif",
+    fontSize:16,
+    color:"white",
+    fontWeight:"600"
+},
+uploadimage:{
+    alignItems:"center",
+    justifyContent:"center",
+    alignSelf:"center",
+    flex:1,
+}
+})
+export default style;
